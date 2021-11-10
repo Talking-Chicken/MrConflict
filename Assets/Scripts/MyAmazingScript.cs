@@ -7,6 +7,7 @@ public class MyAmazingScript : MonoBehaviour
     public GameObject head;
     public GameObject body;
     public float speed;
+    public float headStretch;
 
     void Start()
     {
@@ -18,5 +19,6 @@ public class MyAmazingScript : MonoBehaviour
     {
         head.transform.position += Vector3.up * speed;
         body.transform.position += Vector3.up * speed;
+        head.transform.localScale += headStretch * Vector3.right;
     }
 }

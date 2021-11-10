@@ -439,6 +439,7 @@ MonoBehaviour:
   head: {fileID: 2081305962}
   body: {fileID: 1572582962}
   speed: 0.1
+  headStretch: 0.2
 --- !u!1 &1572582962
 GameObject:
   m_ObjectHideFlags: 0
